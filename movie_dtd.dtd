@@ -1,0 +1,13 @@
+
+<!ELEMENT film (movie+)>
+<!ELEMENT movie (name,types,stars,director,date)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT types (type+)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT stars (name_actor+)>
+<!ELEMENT name_actor (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT date (day,month,year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
