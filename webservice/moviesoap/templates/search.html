@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>search</title>
+    </head>
+    <body>
+        type
+        <FORM method="POST">
+            <input name="type" id="type"/>
+            <INPUT Type="submit" VALUE="search" id="button_search" > 
+            <INPUT Type = "hidden" value ="search" name = 'search'>
+                     {% csrf_token %}
+        </FORM>
+    </body>
+</html>

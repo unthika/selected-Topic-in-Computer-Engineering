@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>search</title>
+    </head>
+    <body>
+        Add Movie
+        <FORM method="POST">
+            movie name
+            <input name="movie_name" id="movie_name"/>
+            </br>
+            type
+            <input name="type_" id="type_"/>
+            </br>
+            actor name
+            <input name="ac_names" id="ac_names"/>
+            </br>
+            director
+            <input name="director" id="director"/>
+            </br>
+            day
+            <input name="date" id="date"/>
+            <input name="mount" id="mount"/>
+            <input name="year" id="year"/>
+            </br>
+            <INPUT Type="submit" VALUE="OK" id="button_search" > 
+            <INPUT Type = "hidden" value ="send" name = 'send'>
+                     {% csrf_token %}
+        </FORM>
+    </body>
+</html>
