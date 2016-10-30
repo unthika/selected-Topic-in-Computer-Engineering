@@ -1,0 +1,1 @@
+﻿รัน test_soappy ก่อน แล้วเข้าไปที่ path ชื่อ webservice แล้วพิม command ใน cmd ว่า python manage.py runserver
